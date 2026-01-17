@@ -49,7 +49,7 @@ public class NowplayingCmd extends MusicCommand
         }
         else
         {
-            event.getChannel().sendMessage(data).queue(msg -> bot.getNowplayingHandler().setLastNPMessage(msg));
+            event.getChannel().sendMessage(m).queue(msg -> bot.getNowplayingHandler().setLastNPMessage(msg));
         }
     }
 }
