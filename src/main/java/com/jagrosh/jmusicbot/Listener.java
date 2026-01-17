@@ -78,6 +78,7 @@ public class Listener extends ListenerAdapter
                 channel.sendMessage("# DO NOT AUTHORISE THIS WITH YOUR MAIN GOOGLE ACCOUNT!!!\n" + "## Create or use an alternative/burner Google account!\n" + "To give JMusicBot access to your Google account, go to " + data.getAuthorisationUrl() + " and enter the code **" + data.getCode() + "**").queue();
             }
         }
+        bot.resetGame();
     }
 
     @Override
