@@ -22,6 +22,7 @@ import com.jagrosh.jmusicbot.Bot;
 import com.jagrosh.jmusicbot.commands.OwnerCommand;
 import com.jagrosh.jmusicbot.utils.OtherUtil;
 import net.dv8tion.jda.api.entities.Icon;
+import net.dv8tion.jda.api.interactions.InteractionContextType;
 
 /**
  *
