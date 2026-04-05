@@ -6,3 +6,4 @@
 *.json
 *.txt
 nb*.xml
+dependency-reduced-pom.xml
